@@ -3,7 +3,7 @@
 macOS용 비트퍼펙트 오디오 플레이어. 다운로드와 문제 신고를 위한 저장소입니다.
 
 > A bit-perfect audio player for macOS. This repository hosts downloads and the issue tracker.
-> The interface is mostly English at this time. A few BitRain-specific screens — audio output, EQ, help — are in Korean.
+> The interface follows the macOS language setting: Korean or English.
 
 ---
 
@@ -18,17 +18,19 @@ macOS용 비트퍼펙트 오디오 플레이어. 다운로드와 문제 신고�
 - **NAS 재생** — SMB/NFS 네트워크 스토리지를 전제로 만들었습니다. 다음 곡을 미리 읽어 끊김을 막습니다
 - **DSD64 · 고해상도 PCM** — FLAC, ALAC, WavPack, Monkey's Audio 등
 
+![BitRain 시작 화면](docs/screenshot-home.png)
+
 ## 요구 사양
 
 | 항목 | 내용 |
 |---|---|
 | OS | macOS 14.0 (Sonoma) 이상 |
 | 프로세서 | Apple Silicon **및** Intel |
-| 인터페이스 | 영어 위주 · 일부 화면 한국어 (아래 참고) |
+| 인터페이스 | 한국어 · 영어 (macOS 언어 설정에 따름) |
 
 **Intel Mac은 아직 실기 검증을 거치지 않았습니다.** 동작 보고를 받는 것이 이 저장소를 연 이유 중 하나입니다.
 
-**인터페이스는 영어가 대부분이고 일부 화면만 한국어입니다.** 라이브러리·설정 등 화면 대부분은 영어이며, 오디오 출력·EQ·도움말처럼 BitRain이 직접 만든 화면 일부가 한국어입니다. 어느 쪽으로도 완결되지 않은 상태이며, 정리 대상으로 잡아 두었습니다.
+**인터페이스는 macOS 언어 설정을 따릅니다.** 한국어로 쓰시면 화면 전체가 한국어로, 영어로 쓰시면 전체가 영어로 표시됩니다. V1.8에서 정리했습니다 — 그 전에는 화면마다 섞여 나왔습니다.
 
 ## 다운로드
 
