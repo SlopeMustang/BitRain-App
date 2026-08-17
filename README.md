@@ -18,7 +18,7 @@ macOS용 비트퍼펙트 오디오 플레이어. 다운로드와 문제 신고�
 - **NAS 재생** — SMB/NFS 네트워크 스토리지를 전제로 만들었습니다. 다음 곡을 미리 읽어 끊김을 막습니다
 - **DSD64 · 고해상도 PCM** — FLAC, ALAC, WavPack, Monkey's Audio 등
 
-![BitRain 시작 화면](docs/screenshot-home.png)
+![BitRain 시작 화면](docs/screenshot-home-v18.png)
 
 ## 요구 사양
 
