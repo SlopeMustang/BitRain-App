@@ -1,0 +1,43 @@
+name: 동작 보고
+description: 문제가 아니라 "내 환경에서 이렇게 되더라"는 보고
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **잘 되더라는 보고도 똑같이 중요합니다.**
+
+        BitRain의 재생 계층은 지금까지 **사용자 1명 · 하드웨어 1조합**에서만 검증됐습니다.
+        다른 DAC · 다른 Mac · 다른 NAS에서 무슨 일이 일어나는지 알 방법이 이것뿐입니다.
+
+  - type: textarea
+    id: snapshot
+    attributes:
+      label: 진단 스냅샷
+      description: |
+        **도움말 › BitRain 도움말 › 진단 › 진단 스냅샷 복사** 로 얻은 내용을 붙여넣어 주십시오.
+        장치와 하드웨어 정보가 여기 다 들어 있어, 이것만으로도 대부분 파악됩니다.
+      render: json
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: works
+    attributes:
+      label: 성립한 것
+      description: 확인되는 항목에 표시해 주십시오.
+      options:
+        - label: 재생이 정상이다
+        - label: 독점 모드(Hog Mode)가 잡힌다
+        - label: 트랙마다 샘플레이트가 자동으로 바뀐다
+        - label: 업샘플링이 동작한다
+        - label: NAS 폴더가 정상적으로 마운트되고 스캔된다
+        - label: DSD64가 재생된다
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 안 되거나 이상한 점
+      description: 위에서 표시하지 못한 항목이 있다면 무엇이 어떻게 안 되는지 적어 주십시오.
+    validations:
+      required: false
